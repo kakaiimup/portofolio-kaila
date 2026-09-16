@@ -2,7 +2,7 @@
   return (
     <section className="about">
       <h2>Tentang Saya</h2>
-      <img src="/image/profil.jpg.jpg" alt="Foto Profil" className="profile-photo" />
+      <img src={`${import.meta.env.BASE_URL}image/profil.jpg.jpg`} alt="Foto Profil" className="profile-photo" />
       <p>Nama: Kaila Aulia Rahman </p>
       <p>Sekolah: SMK PUSDIKHUBAD CIMAHI</p>
       <p>Kompetensi Keahlian: Rekayasa Perangkat Lunak</p>
