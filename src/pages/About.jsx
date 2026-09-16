@@ -1,0 +1,17 @@
+ function About() {
+  return (
+    <section className="about">
+      <h2>Tentang Saya</h2>
+      <img src="/image/profil.jpg.jpg" alt="Foto Profil" className="profile-photo" />
+      <p>Nama: Kaila Aulia Rahman </p>
+      <p>Sekolah: SMK PUSDIKHUBAD CIMAHI</p>
+      <p>Kompetensi Keahlian: Rekayasa Perangkat Lunak</p>
+      <p>
+        Saya tertarik pada pengembangan web front-end dan sedang belajar
+        React.js untuk membangun aplikasi yang interaktif.
+      </p>
+    </section>
+  );
+}
+
+export default About;
